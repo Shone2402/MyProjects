@@ -1,0 +1,50 @@
+.mycontent{
+  padding-top: 100px;
+
+}
+
+.mynav{
+
+  background-color: yellow
+
+}
+
+html,
+body {
+
+  overflow: hidden;
+  
+  margin: 0;
+  font-family: georgia
+}
+
+
+#note {
+  position: absolute;
+  color: rgba(249,241,204,1);
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+
+  user-select: none;
+
+}
+
+
+body {
+  background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
+
+  animation: 4s linear 0s infinite bp
+
+}
+
+@keyframes bp {
+  from {
+    background-position:  198px 0;
+  }
+
+  to {
+    background-position:  0 198px;
+  }
+}
